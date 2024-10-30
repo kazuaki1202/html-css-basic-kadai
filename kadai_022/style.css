@@ -35,6 +35,7 @@ main{
   
 }
 
+
 h2{
   font-size: 25px;
   border-bottom: 3px dotted rgb(236, 122, 122);
@@ -45,13 +46,13 @@ h2::before{
   color:rgb(239, 111, 139) ;
 }
 
-div p:nth-of-type(2)::first-letter{
+#p:nth-of-type(2)::first-letter{
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
 
 .contents img{
-  padding: 10px 0px;
+ margin: 10px 0px;
   width: 70%;
 }
 
