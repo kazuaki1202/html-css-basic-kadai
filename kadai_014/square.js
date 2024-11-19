@@ -1,4 +1,5 @@
 const introduce =(num)=>{
-  console.log(num*10);
+  return num  **2;
 }
-introduce(10);
+const result =introduce(10);
+console.log(result);
